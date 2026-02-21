@@ -13,7 +13,7 @@ import { EndSlide } from './slides/06-End';
 
 export default function App() {
   const deckRef = useRef<HTMLDivElement>(null);
-  const [slideState, setSlideState] = useState({ h: 0, v: 0, f: -1 });
+  const [_slideState, setSlideState] = useState({ h: 0, v: 0, f: -1 });
 
   useEffect(() => {
     if (!deckRef.current) return;
