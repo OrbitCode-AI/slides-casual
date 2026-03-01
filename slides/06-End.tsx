@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface EndSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function EndSlide({ isNested }: EndSlideProps) {
@@ -18,11 +18,11 @@ function EndSlide({ isNested }: EndSlideProps) {
         <p className="fragment">Questions? Let's chat!</p>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function EndSlidePreview() {
-  return <EndSlide />;
+  return <EndSlide />
 }
 
-export { EndSlide };
+export { EndSlide }

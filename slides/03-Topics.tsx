@@ -1,8 +1,8 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface TopicsSlideProps {
-  isNested?: boolean;
-  topics?: { emoji: string; title: string }[];
+  isNested?: boolean
+  topics?: { emoji: string; title: string }[]
 }
 
 const defaultTopics = [
@@ -10,7 +10,7 @@ const defaultTopics = [
   { emoji: '🎨', title: 'Creative Stuff' },
   { emoji: '🧪', title: 'Fun Experiments' },
   { emoji: '🎮', title: 'Games & Play' },
-];
+]
 
 function TopicsSlide({ isNested, topics = defaultTopics }: TopicsSlideProps) {
   return (
@@ -27,11 +27,11 @@ function TopicsSlide({ isNested, topics = defaultTopics }: TopicsSlideProps) {
         </div>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function TopicsSlidePreview() {
-  return <TopicsSlide />;
+  return <TopicsSlide />
 }
 
-export { TopicsSlide };
+export { TopicsSlide }

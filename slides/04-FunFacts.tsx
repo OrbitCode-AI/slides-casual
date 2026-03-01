@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface FunFactsSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function FunFactsSlide({ isNested }: FunFactsSlideProps) {
@@ -29,11 +29,11 @@ function FunFactsSlide({ isNested }: FunFactsSlideProps) {
         </section>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function FunFactsSlidePreview() {
-  return <FunFactsSlide />;
+  return <FunFactsSlide />
 }
 
-export { FunFactsSlide };
+export { FunFactsSlide }

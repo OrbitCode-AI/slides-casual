@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface IntroSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function IntroSlide({ isNested }: IntroSlideProps) {
@@ -18,11 +18,11 @@ function IntroSlide({ isNested }: IntroSlideProps) {
         </div>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function IntroSlidePreview() {
-  return <IntroSlide />;
+  return <IntroSlide />
 }
 
-export { IntroSlide };
+export { IntroSlide }

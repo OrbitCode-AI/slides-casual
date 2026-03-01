@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface InteractiveSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function InteractiveSlide({ isNested }: InteractiveSlideProps) {
@@ -27,11 +27,11 @@ function InteractiveSlide({ isNested }: InteractiveSlideProps) {
         <p className="fragment small-text">Raise your hand! ✋</p>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function InteractiveSlidePreview() {
-  return <InteractiveSlide />;
+  return <InteractiveSlide />
 }
 
-export { InteractiveSlide };
+export { InteractiveSlide }

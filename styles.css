@@ -1,8 +1,9 @@
 .reveal {
-  font-family: 'Comic Sans MS', 'Chalkboard', cursive, sans-serif;
+  font-family: "Comic Sans MS", "Chalkboard", cursive, sans-serif;
 }
 
-.reveal h1, .reveal h2 {
+.reveal h1,
+.reveal h2 {
   font-weight: 700;
   color: #333;
 }
@@ -104,8 +105,13 @@
 
 /* Bounce animation */
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 .bounce {
